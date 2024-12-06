@@ -1,37 +1,3 @@
-<p align="center">
-    <img src="./docs/images/ketnoitinhnguyen.png">
-</p>
-
-<p align="center">
-  <a href="https://github.com/NHD04072004/F5-alpha/blob/master/LICENSE"><img
-    src="https://img.shields.io/github/license/NHD04072004/ketnoitinhnguyen.svg"
-    alt="LICENSE"
-  /></a>
-  <a href="https://github.com/NHD04072004/F5-alpha/issues"><img
-    src="https://img.shields.io/github/issues/NHD04072004/ketnoitinhnguyen.svg"
-    alt="Open issues"
-  /></a>
-  <a href="https://github.com/NHD04072004/F5-alpha/pulls"><img
-    src="https://img.shields.io/github/issues-pr/NHD04072004/ketnoitinhnguyen.svg"
-    alt="Open pull requests"
-  /></a>
-  <a href="https://github.com/NHD04072004/F5-alpha/graphs/contributors"><img
-    src="https://img.shields.io/github/contributors/NHD04072004/ketnoitinhnguyen.svg"
-    alt="contributor"
-  /></a>
-</p>
-
-
-<a href="https://github.com/NHD04072004/F5-alpha/issues/new?assignees=&labels=&projects=&template=bug_report.md&title=%F0%9F%90%9B+Bug+Report%3A+">Bug Report ⚠️
-</a><br>
-<a href="https://github.com/NHD04072004/F5-alpha/issues/new?assignees=&labels=&projects=&template=feature_request.md&title=RequestFeature:">Request Feature 👩‍💻</a>
-
-# Kết nối tình nguyện
-
-Ứng dụng giúp kết nối giữa nhân dân với tình nguyện viên và các nhà hảo tâm.
-
-Dự án được thực hiện trong cuộc thi [Phần Mềm Nguồn Mở Olympic Tin học Sinh viên Việt Nam 2024](https://www.olp.vn/procon-pmmn/ph%E1%BA%A7n-m%E1%BB%81m-ngu%E1%BB%93n-m%E1%BB%9F). Được cấp phép nguồn mở theo giấy phép [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0) bởi đội F5-alpha.
-
 ## 🔎 Danh Mục
 1. [Giới Thiệu](#Giới-Thiệu)
 2. [Chức Năng](#chức-năng-chính)
@@ -55,6 +21,7 @@ Project tập trung vào các chức năng chính như sau:
 - Đăng ký làm tình nguyện viên.
 - Đăng ký thành lập tổ chức.
 - Gửi yêu cầu hỗ trợ.
+
 
 ## 👩‍💻 Tổng Quan Hệ Thống
 
