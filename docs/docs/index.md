@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="./docs/images/ketnoitinhnguyen.png">
+    <img src="https://raw.githubusercontent.com/NHD04072004/ketnoitinhnguyen/refs/heads/main/docs/images/ketnoitinhnguyen.png">
 </p>
 
 <p align="center">
@@ -37,6 +37,8 @@ Dự án được thực hiện trong cuộc thi [Phần Mềm Nguồn Mở Olym
 ## Chức Năng Chính
 
 Project tập trung vào các chức năng chính như sau:
+
 - Đăng ký làm tình nguyện viên.
 - Đăng ký thành lập tổ chức.
 - Gửi yêu cầu hỗ trợ.
+

@@ -18,6 +18,7 @@
 ## Chức Năng Chính
 
 Project tập trung vào các chức năng chính như sau:
+
 - Đăng ký làm tình nguyện viên.
 - Đăng ký thành lập tổ chức.
 - Gửi yêu cầu hỗ trợ.
@@ -34,8 +35,15 @@ Hệ thống được xây dựng bằng công nghệ LCDP (Low code development
 .
 ├── .github
 ├── docs/
-│   ├── docs
-│   └── CONTRIBUTING.md
+│   ├── docs/
+│   │   ├── Contributing/
+│   │   │   └── CONTRIBUTING.md
+│   │   ├── Getting-started.md
+│   │   ├── index.md
+│   │   └── License.md
+│   ├── images/
+│   ├── .gitignore
+│   └── mkdocs.yaml
 ├── src/
 │   └── <export_file>.tar.gz
 ├── .gitignore
