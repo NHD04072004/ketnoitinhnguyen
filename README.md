@@ -22,9 +22,9 @@
 </p>
 
 
-<a href="https://github.com/NHD04072004/F5-alpha/issues/new?assignees=&labels=&projects=&template=bug_report.md&title=%F0%9F%90%9B+Bug+Report%3A+">Bug Report ⚠️
+<a href="https://github.com/NHD04072004/ketnoitinhnguyen/issues/new?assignees=&labels=&projects=&template=bug_report.md&title=%F0%9F%90%9B+Bug+Report%3A+">Bug Report ⚠️
 </a><br>
-<a href="https://github.com/NHD04072004/F5-alpha/issues/new?assignees=&labels=&projects=&template=feature_request.md&title=RequestFeature:">Request Feature 👩‍💻</a>
+<a href="https://github.com/NHD04072004/ketnoitinhnguyen/issues/new?assignees=&labels=&projects=&template=feature_request.md&title=RequestFeature:">Request Feature 👩‍💻</a>
 
 # Kết nối tình nguyện
 
@@ -67,8 +67,15 @@ Hệ thống được xây dựng bằng công nghệ LCDP (Low code development
 .
 ├── .github
 ├── docs/
-│   ├── docs
-│   └── CONTRIBUTING.md
+│   ├── docs/
+│   │   ├── Contributing/
+│   │   │   └── CONTRIBUTING.md
+│   │   ├── Getting-started.md
+│   │   ├── index.md
+│   │   └── License.md
+│   ├── images/
+│   ├── .gitignore
+│   └── mkdocs.yaml
 ├── src/
 │   └── <export_file>.tar.gz
 ├── .gitignore
