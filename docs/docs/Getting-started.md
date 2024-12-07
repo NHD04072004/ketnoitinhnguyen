@@ -12,7 +12,7 @@
 ## Giới Thiệu
 
 - Những năm gần đây chúng ta cũng đã phải trải qua một số thời điểm phải ứng phó khẩn cấp trên quy mô rộng như thời kì đại dịch Covid, thiên tai do bão lũ gây ra hàng năm.
-- Trong năm 2024 này đã có đợt bão Yagi là xoáy thuận nhiệt đới thứ 11 của Mùa bão Tây Bắc Thái Bình Dương 2024. Cơn bão đã ảnh hưởng tới một loạt các nước châu Á đặc biệt là Philippines, Trung Quốc và Việt Nam.
+- Trong năm 2024 này đã có đợt [bão Yagi](https://vi.wikipedia.org/wiki/B%C3%A3o_Yagi_(2024)) là xoáy thuận nhiệt đới thứ 11 của Mùa bão Tây Bắc Thái Bình Dương 2024. Cơn bão đã ảnh hưởng tới một loạt các nước châu Á đặc biệt là Philippines, Trung Quốc và Việt Nam.
 - Tại những thời điểm này thường xuất hiện các nhu cầu ứng dụng CNTT để kết nối cộng đồng, cung cấp thông tin nhanh phục vụ các hoạt động ứng phó khẩn cấp, khắc phục hậu quả, hỗ trợ nhân đạo sau thảm họa.
 
 ## Chức Năng Chính
@@ -93,6 +93,7 @@ Bạn muốn đóng góp cho dự án, hãy đọc [CONTRIBUTING](.github/CONTRI
 ## Liên hệ
 
 Nếu bạn có câu hỏi, đừng ngần ngại liên hệ với chúng tôi
+
 - Nguyễn Hải Đăng: 22a1001d0049@students.hou.edu.vn
 - Nguyễn Thế Lộc: 22a1001d0199@students.hou.edu.vn
 - Trần Anh Quân: 22a1001d0275@students.hou.edu.vn
