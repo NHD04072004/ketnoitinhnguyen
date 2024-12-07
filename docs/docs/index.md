@@ -41,4 +41,5 @@ Project tập trung vào các chức năng chính như sau:
 - Đăng ký làm tình nguyện viên.
 - Đăng ký thành lập tổ chức.
 - Gửi yêu cầu hỗ trợ.
-
+- Bản đồ hỗ trợ.
+- AI tra cứu vấn đề liên quan đến thiên tai và cứu trợ.
