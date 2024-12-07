@@ -82,7 +82,6 @@ Hệ thống được xây dựng bằng công nghệ LCDP (Low code development
 
 ## Hướng Dẫn Cài Đặt
 
-
 ### Yêu Cầu 📋
 
 Để cài đặt và chạy được dự án, trước tiên bạn cần phải cài đặt các công cụ bên dưới. Hãy thực hiện theo các hướng dẫn cài đặt sau, lưu ý chọn hệ điều hành phù hợp với máy tính:
@@ -103,17 +102,23 @@ cd myProject
 budi hosting --init
 ```
 
-Tiếp theo, khởi chạy dự án của bạn:
+Tiếp theo, khởi chạy dự án:
 
 ```bash
 budi hosting --start
 ```
 
+Chạy dự án trên trình duyệt của bạn [http://localhost:10000](http://localhost:10000). Sau đó tạo đăng nhập và tạo ứng dụng.
+
 Clone dự án của tôi về máy tính của bạn:
 
 ```bash
-git clone https://github.com/NHD04072004/F5-alpha.git
+git clone https://github.com/NHD04072004/ketnoitinhnguyen.git
 ```
+
+Sau đó, vào `Settings > Export/Import > Import app` rồi kéo thả file tài nguyên vào, sau đó ấn `Update`
+
+![](/docs/images/import-app.png)
 
 ## 🙌 Đóng góp cho dự án
 
