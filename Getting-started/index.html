@@ -448,6 +448,90 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Hướng dẫn sử dụng cho người dân
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Hướng dẫn sử dụng cho người dân
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../H%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-s%E1%BB%AD-d%E1%BB%A5ng-cho-ng%C6%B0%E1%BB%9Di-d%C3%A2n/Y%C3%AAu-c%E1%BA%A7u-h%E1%BB%97-tr%E1%BB%A3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Yêu cầu hỗ trợ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../H%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-s%E1%BB%AD-d%E1%BB%A5ng-cho-ng%C6%B0%E1%BB%9Di-d%C3%A2n/%C4%90%C4%83ng-k%C3%BD-tham-gia-t%C3%ACnh-nguy%E1%BB%87n/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Đăng ký tham gia tình nguyện
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -611,7 +695,7 @@
 <h2 id="gioi-thieu">Giới Thiệu</h2>
 <ul>
 <li>Những năm gần đây chúng ta cũng đã phải trải qua một số thời điểm phải ứng phó khẩn cấp trên quy mô rộng như thời kì đại dịch Covid, thiên tai do bão lũ gây ra hàng năm.</li>
-<li>Trong năm 2024 này đã có đợt bão Yagi là xoáy thuận nhiệt đới thứ 11 của Mùa bão Tây Bắc Thái Bình Dương 2024. Cơn bão đã ảnh hưởng tới một loạt các nước châu Á đặc biệt là Philippines, Trung Quốc và Việt Nam.</li>
+<li>Trong năm 2024 này đã có đợt <a href="https://vi.wikipedia.org/wiki/B%C3%A3o_Yagi_(2024)">bão Yagi</a> là xoáy thuận nhiệt đới thứ 11 của Mùa bão Tây Bắc Thái Bình Dương 2024. Cơn bão đã ảnh hưởng tới một loạt các nước châu Á đặc biệt là Philippines, Trung Quốc và Việt Nam.</li>
 <li>Tại những thời điểm này thường xuất hiện các nhu cầu ứng dụng CNTT để kết nối cộng đồng, cung cấp thông tin nhanh phục vụ các hoạt động ứng phó khẩn cấp, khắc phục hậu quả, hỗ trợ nhân đạo sau thảm họa.</li>
 </ul>
 <h2 id="chuc-nang-chinh">Chức Năng Chính</h2>
@@ -620,19 +704,16 @@
 <li>Đăng ký làm tình nguyện viên.</li>
 <li>Đăng ký thành lập tổ chức.</li>
 <li>Gửi yêu cầu hỗ trợ.</li>
+<li>Bản đồ hỗ trợ.</li>
+<li>AI tra cứu vấn đề liên quan đến thiên tai và cứu trợ.</li>
 </ul>
 <h2 id="tong-quan-he-thong">👩‍💻 Tổng Quan Hệ Thống</h2>
 <p>Hệ thống được xây dựng bằng công nghệ LCDP (Low code development platform), cụ thể là <a href="https://budibase.com/">Budibase</a></p>
 <h2 id="cau-truc-thu-muc">Cấu trúc thư mục</h2>
 <pre><code>.
-├── .github
+├── .github/
 ├── docs/
 │   ├── docs/
-│   │   ├── Contributing/
-│   │   │   └── CONTRIBUTING.md
-│   │   ├── Getting-started.md
-│   │   ├── index.md
-│   │   └── License.md
 │   ├── images/
 │   ├── .gitignore
 │   └── mkdocs.yaml
@@ -658,19 +739,24 @@ cd myProject
 
 budi hosting --init
 </code></pre>
-<p>Tiếp theo, khởi chạy dự án của bạn:</p>
+<p>Tiếp theo, khởi chạy dự án:</p>
 <pre><code class="language-bash">budi hosting --start
 </code></pre>
+<p>Chạy dự án trên trình duyệt của bạn <a href="http://localhost:10000">http://localhost:10000</a>. Sau đó tạo đăng nhập và tạo ứng dụng.</p>
 <p>Clone dự án của tôi về máy tính của bạn:</p>
-<pre><code class="language-bash">git clone https://github.com/NHD04072004/F5-alpha.git
+<pre><code class="language-bash">git clone https://github.com/NHD04072004/ketnoitinhnguyen.git
 </code></pre>
+<p>Sau đó, vào <code>Settings &gt; Export/Import &gt; Import app</code> rồi kéo thả file tài nguyên vào, sau đó ấn <code>Update</code></p>
+<p><img alt="" src="https://github.com/NHD04072004/ketnoitinhnguyen/blob/main/docs/images/import-app.png?raw=true" /></p>
 <h2 id="ong-gop-cho-du-an">🙌 Đóng góp cho dự án</h2>
-<p>Bạn muốn đóng góp cho dự án, hãy đọc <a href=".github/CONTRIBUTING.md">CONTRIBUTING</a> để biết thêm chi tiết.</p>
+<p>Bạn muốn đóng góp cho dự án, hãy đọc <a href="https://raw.githubusercontent.com/NHD04072004/ketnoitinhnguyen/refs/heads/main/.github/CONTRIBUTING.md">CONTRIBUTING</a> để biết thêm chi tiết.</p>
 <h2 id="lien-he">Liên hệ</h2>
-<p>Nếu bạn có câu hỏi, đừng ngần ngại liên hệ với chúng tôi
-- Nguyễn Hải Đăng: 22a1001d0049@students.hou.edu.vn
-- Nguyễn Thế Lộc: 22a1001d0199@students.hou.edu.vn
-- Trần Anh Quân: 22a1001d0275@students.hou.edu.vn</p>
+<p>Nếu bạn có câu hỏi, đừng ngần ngại liên hệ với chúng tôi</p>
+<ul>
+<li>Nguyễn Hải Đăng: 22a1001d0049@students.hou.edu.vn</li>
+<li>Nguyễn Thế Lộc: 22a1001d0199@students.hou.edu.vn</li>
+<li>Trần Anh Quân: 22a1001d0275@students.hou.edu.vn</li>
+</ul>
 <h2 id="license">📝 License</h2>
 <p>This project is licensed under the terms of the <a href="LICENSE">Apache-2.0</a> license.</p>
 
