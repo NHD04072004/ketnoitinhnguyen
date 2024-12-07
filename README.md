@@ -32,6 +32,9 @@
 
 Dự án được thực hiện trong cuộc thi [Phần Mềm Nguồn Mở Olympic Tin học Sinh viên Việt Nam 2024](https://www.olp.vn/procon-pmmn/ph%E1%BA%A7n-m%E1%BB%81m-ngu%E1%BB%93n-m%E1%BB%9F). Được cấp phép nguồn mở theo giấy phép [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0) bởi đội F5-alpha.
 
+Để biết thêm chi tiết về cuộc thi, xem tại [đây](https://vfossa.vn/tin-tuc/cong-bo-de-thi-noi-dung-phan-mem-nguon-mo-olympic-tin-hoc-sinh-vien-viet-nam-2024-727.html).
+
+
 ## 🔎 Danh Mục
 1. [Giới Thiệu](#Giới-Thiệu)
 2. [Chức Năng](#chức-năng-chính)
@@ -62,6 +65,9 @@ Project tập trung vào các chức năng chính như sau:
 
 Hệ thống được xây dựng bằng công nghệ LCDP (Low code development platform), cụ thể là [Budibase](https://budibase.com/)
 
+### plugins
+
+### Services
 
 ## Cấu trúc thư mục
 
