@@ -1,19 +1,20 @@
+---
 name: Feature request
-description: Suggest an feature / idea for this project
-title: "[Feature Request / Suggestion]: "
-labels: ["enhancement"]
-body:
+about: Suggest an idea for this project
+title: ''
+labels: ''
+assignees: ''
 
--   type: markdown
-    attributes:
-    value: |
-    We appreciate your feedback on how to improve this project. Please be sure to include as much details & any resources if possible!
--   type: textarea
-    id: Suggestion
-    attributes:
-    label: Suggestion / Feature Request
-    description: Describe the feature(s) you would like to see added.
-    placeholder: Tell us your suggestion
-    value: "Your suggestion here"
-    validations:
-    required: true
+---
+
+**Is your feature request related to a problem? Please describe.**
+A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+
+**Describe the solution you'd like**
+A clear and concise description of what you want to happen.
+
+**Describe alternatives you've considered**
+A clear and concise description of any alternative solutions or features you've considered.
+
+**Additional context**
+Add any other context or screenshots about the feature request here.
