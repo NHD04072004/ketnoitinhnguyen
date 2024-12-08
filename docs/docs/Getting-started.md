@@ -23,11 +23,19 @@ Project tập trung vào các chức năng chính như sau:
 - Đăng ký thành lập tổ chức.
 - Gửi yêu cầu hỗ trợ.
 - Bản đồ hỗ trợ.
-- AI tra cứu vấn đề liên quan đến thiên tai và cứu trợ.
 
 ## 👩‍💻 Tổng Quan Hệ Thống
 
 Hệ thống được xây dựng bằng công nghệ LCDP (Low code development platform), cụ thể là [Budibase](https://budibase.com/)
+
+### Plugins
+
+- [bb-qr-code](https://github.com/rosnerdev/bb-qr-code): sử dụng để tạo qr cho tình nguyện viên vào nhóm trò chuyện.
+- [Geolocation](https://github.com/andz-bb/budibase-component-geolocation): sử dụng để lấy vị trí người dùng.
+
+### Services
+
+- [Goongmap](https://github.com/NHD04072004/ketnoitinhnguyen/tree/goong-map-org): bản đồ.
 
 
 ## Cấu trúc thư mục
@@ -40,8 +48,6 @@ Hệ thống được xây dựng bằng công nghệ LCDP (Low code development
 │   ├── images/
 │   ├── .gitignore
 │   └── mkdocs.yaml
-├── src/
-│   └── <export_file>.tar.gz
 ├── .gitignore
 ├── LICENSE
 └── README.md

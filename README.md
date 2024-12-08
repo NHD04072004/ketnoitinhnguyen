@@ -3,19 +3,19 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/NHD04072004/F5-alpha/blob/master/LICENSE"><img
+  <a href="https://github.com/NHD04072004/ketnoitinhnguyen/blob/master/LICENSE"><img
     src="https://img.shields.io/github/license/NHD04072004/ketnoitinhnguyen.svg"
     alt="LICENSE"
   /></a>
-  <a href="https://github.com/NHD04072004/F5-alpha/issues"><img
+  <a href="https://github.com/NHD04072004/ketnoitinhnguyen/issues"><img
     src="https://img.shields.io/github/issues/NHD04072004/ketnoitinhnguyen.svg"
     alt="Open issues"
   /></a>
-  <a href="https://github.com/NHD04072004/F5-alpha/pulls"><img
+  <a href="https://github.com/NHD04072004/ketnoitinhnguyen/pulls"><img
     src="https://img.shields.io/github/issues-pr/NHD04072004/ketnoitinhnguyen.svg"
     alt="Open pull requests"
   /></a>
-  <a href="https://github.com/NHD04072004/F5-alpha/graphs/contributors"><img
+  <a href="https://github.com/NHD04072004/ketnoitinhnguyen/graphs/contributors"><img
     src="https://img.shields.io/github/contributors/NHD04072004/ketnoitinhnguyen.svg"
     alt="contributor"
   /></a>
@@ -55,19 +55,24 @@ Dự án được thực hiện trong cuộc thi [Phần Mềm Nguồn Mở Olym
 ## Chức Năng Chính
 
 Project tập trung vào các chức năng chính như sau:
+
 - Đăng ký làm tình nguyện viên.
 - Đăng ký thành lập tổ chức.
 - Gửi yêu cầu hỗ trợ.
 - Bản đồ hỗ trợ.
-- AI tra cứu vấn đề liên quan đến thiên tai và cứu trợ.
 
 ## 👩‍💻 Tổng Quan Hệ Thống
 
 Hệ thống được xây dựng bằng công nghệ LCDP (Low code development platform), cụ thể là [Budibase](https://budibase.com/)
 
-### plugins
+### Plugins
+
+- [bb-qr-code](https://github.com/rosnerdev/bb-qr-code): sử dụng để tạo qr cho tình nguyện viên vào nhóm trò chuyện.
+- [Geolocation](https://github.com/andz-bb/budibase-component-geolocation): sử dụng để lấy vị trí người dùng.
 
 ### Services
+
+- [Goongmap](https://github.com/NHD04072004/ketnoitinhnguyen/tree/goong-map-org): bản đồ.
 
 ## Cấu trúc thư mục
 
@@ -79,8 +84,6 @@ Hệ thống được xây dựng bằng công nghệ LCDP (Low code development
 │   ├── images/
 │   ├── .gitignore
 │   └── mkdocs.yaml
-├── src/
-│   └── <export_file>.tar.gz
 ├── .gitignore
 ├── LICENSE
 └── README.md
@@ -116,11 +119,7 @@ budi hosting --start
 
 Chạy dự án trên trình duyệt của bạn [http://localhost:10000](http://localhost:10000). Sau đó tạo đăng nhập và tạo ứng dụng.
 
-Clone dự án của tôi về máy tính của bạn:
-
-```bash
-git clone https://github.com/NHD04072004/ketnoitinhnguyen.git
-```
+Tải dự án về tại [link](https://github.com/NHD04072004/ketnoitinhnguyen/releases/download/v1.0/ketnoitinhnguyen-export-1733657110017.tar.gz)
 
 Sau đó, vào `Settings > Export/Import > Import app` rồi kéo thả file tài nguyên vào, sau đó ấn `Update`
 
