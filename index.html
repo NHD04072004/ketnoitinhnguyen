@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goong Map</title>
+  <link rel="stylesheet" href="style.css">
+  <script src='https://cdn.jsdelivr.net/npm/@goongmaps/goong-js@1.0.9/dist/goong-js.js'></script>
+  <link href='https://cdn.jsdelivr.net/npm/@goongmaps/goong-js@1.0.9/dist/goong-js.css' rel='stylesheet' />
+  <style>
+    #map {
+      width: 100%;
+      height: 100vh;
+    }
+    #point-selector {
+  position: fixed; 
+  top: 10px;       
+  left: 10px;      
+  background: rgba(255, 255, 255, 0.9); 
+  padding: 10px;   
+  border-radius: 5px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+  z-index: 1000; 
+  max-width: 250px;
+}
+
+#point-selector select, #point-selector button {
+  margin: 5px 0;     
+  width: 100%;       
+  padding: 5px;       
+  font-size: 14px;    
+}
+
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <div id="point-selector"></div>
+  <script src="script.js"></script>
+</div>
+</body>
+</html>
