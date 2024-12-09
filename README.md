@@ -138,7 +138,7 @@ budi hosting --start
 
 Chạy dự án trên trình duyệt của bạn [http://localhost:10000](http://localhost:10000). Sau đó tạo đăng nhập và tạo ứng dụng.
 
-Tải dự án về tại [link](https://github.com/NHD04072004/ketnoitinhnguyen/releases/download/v1.0/ketnoitinhnguyen-export-1733657110017.tar.gz).
+Tải dự án về tại [link](https://github.com/NHD04072004/ketnoitinhnguyen/releases/download/v2.0/ketnoitinhnguyen-export-1733737522961.tar.gz).
 
 Sau đó, vào `Settings > Export/Import > Import app` rồi kéo thả file tài nguyên vào, sau đó ấn `Update`.
 
