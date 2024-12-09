@@ -36,16 +36,16 @@ Dự án được thực hiện trong cuộc thi [Phần Mềm Nguồn Mở Olym
 
 
 ## 🔎 Danh Mục
-1. [Giới Thiệu](#Giới-Thiệu)
-2. [Chức Năng](#chức-năng-chính)
+1. [Giới Thiệu](#giới-thiệu)
+2. [Chức Năng chính](#chức-năng-chính)
 3. [Tổng Quan Hệ Thống](#👩‍💻-tổng-quan-hệ-thống)
     - [Plugins](#plugins)
     - [Services](#services)
     - [Cơ sở dữ liệu](#cơ-sở-dữ-liệu)
 4. [Cấu Trúc Thư Mục](#cấu-trúc-thư-mục)
 5. [Hướng Dẫn Cài Đặt](#hướng-dẫn-cài-đặt)
-    - [📋 Yêu Cầu - Prerequisites](#yêu-cầu-)
-    - [🔨 Cài Đặt](#-cài-đặt)
+    - [📋 Yêu Cầu - Prerequisites](#yêu-cầu-📋)
+    - [🔨 Cài Đặt](#🔨-cài-đặt)
 6. [🙌 Đóng Góp](#🙌-đóng-góp-cho-dự-án)
 7. [📝 License](#📝-license)
 
@@ -71,13 +71,22 @@ Hệ thống được xây dựng bằng công nghệ LCDP (Low code development
 
 ### Plugins
 
-- [bb-qr-code](https://github.com/rosnerdev/bb-qr-code): sử dụng để tạo qr cho tình nguyện viên vào nhóm trò chuyện.
-- [Geolocation](https://github.com/andz-bb/budibase-component-geolocation): sử dụng để lấy vị trí người dùng.
+- [bb-qr-code](https://github.com/rosnerdev/bb-qr-code): tạo qr cho tình nguyện viên vào nhóm trò chuyện.
+- [Geolocation](https://github.com/andz-bb/budibase-component-geolocation): lấy vị trí người dùng.
 
 ### Services
 
 - [Goongmap](https://github.com/NHD04072004/ketnoitinhnguyen/tree/goong-map-org): hiển thị bản đồ, chỉ đường và đánh dấu các yêu cầu hỗ trợ.
+
+<p align="center">
+    <img src="./docs/images/map/mapflow.png">
+</p>
+
 - [Chatbase](https://www.chatbase.co/): tra cứu các thông tin của các cơ quan thường trực của các tỉnh/quận/huyện.
+
+<p align="center">
+    <img src="./docs/images/chat/chatflow.png">
+</p>
 
 ### Cơ sở dữ liệu
 
@@ -133,7 +142,9 @@ Tải dự án về tại [link](https://github.com/NHD04072004/ketnoitinhnguyen
 
 Sau đó, vào `Settings > Export/Import > Import app` rồi kéo thả file tài nguyên vào, sau đó ấn `Update`.
 
-![](/docs/images/import-app.png)
+<p align="center">
+    <img src="./docs/images/import-app.png">
+</p>
 
 ## 🙌 Đóng góp cho dự án
 
