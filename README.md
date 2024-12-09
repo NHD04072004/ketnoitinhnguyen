@@ -39,10 +39,13 @@ Dự án được thực hiện trong cuộc thi [Phần Mềm Nguồn Mở Olym
 1. [Giới Thiệu](#Giới-Thiệu)
 2. [Chức Năng](#chức-năng-chính)
 3. [Tổng Quan Hệ Thống](#👩‍💻-tổng-quan-hệ-thống)
+    - [Plugins](#plugins)
+    - [Services](#services)
+    - [Cơ sở dữ liệu](#cơ-sở-dữ-liệu)
 4. [Cấu Trúc Thư Mục](#cấu-trúc-thư-mục)
 5. [Hướng Dẫn Cài Đặt](#hướng-dẫn-cài-đặt)
-    - [📋 Yêu Cầu - Prerequisites](#yêu-cầu-📋)
-    - [🔨 Cài Đặt](#🔨-cài-đặt)
+    - [📋 Yêu Cầu - Prerequisites](#yêu-cầu-)
+    - [🔨 Cài Đặt](#-cài-đặt)
 6. [🙌 Đóng Góp](#🙌-đóng-góp-cho-dự-án)
 7. [📝 License](#📝-license)
 
@@ -60,6 +63,7 @@ Project tập trung vào các chức năng chính như sau:
 - Đăng ký thành lập tổ chức.
 - Gửi yêu cầu hỗ trợ.
 - Bản đồ hỗ trợ.
+- Chatbot tra cứu thông tin của các cơ quan thường trực.
 
 ## 👩‍💻 Tổng Quan Hệ Thống
 
@@ -72,7 +76,13 @@ Hệ thống được xây dựng bằng công nghệ LCDP (Low code development
 
 ### Services
 
-- [Goongmap](https://github.com/NHD04072004/ketnoitinhnguyen/tree/goong-map-org): bản đồ.
+- [Goongmap](https://github.com/NHD04072004/ketnoitinhnguyen/tree/goong-map-org): hiển thị bản đồ, chỉ đường và đánh dấu các yêu cầu hỗ trợ.
+- [Chatbase](https://www.chatbase.co/): tra cứu các thông tin của các cơ quan thường trực của các tỉnh/quận/huyện.
+
+### Cơ sở dữ liệu
+
+- [BudibaseDB](https://docs.budibase.com/docs/budibasedb): Lưu các thông tin của dự án.
+- [MongoDB](https://www.mongodb.com/): Lưu trữ thông tin người dân gửi yêu cầu hỗ trợ.
 
 ## Cấu trúc thư mục
 
@@ -119,9 +129,9 @@ budi hosting --start
 
 Chạy dự án trên trình duyệt của bạn [http://localhost:10000](http://localhost:10000). Sau đó tạo đăng nhập và tạo ứng dụng.
 
-Tải dự án về tại [link](https://github.com/NHD04072004/ketnoitinhnguyen/releases/download/v1.0/ketnoitinhnguyen-export-1733657110017.tar.gz)
+Tải dự án về tại [link](https://github.com/NHD04072004/ketnoitinhnguyen/releases/download/v1.0/ketnoitinhnguyen-export-1733657110017.tar.gz).
 
-Sau đó, vào `Settings > Export/Import > Import app` rồi kéo thả file tài nguyên vào, sau đó ấn `Update`
+Sau đó, vào `Settings > Export/Import > Import app` rồi kéo thả file tài nguyên vào, sau đó ấn `Update`.
 
 ![](/docs/images/import-app.png)
 
