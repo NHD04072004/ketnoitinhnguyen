@@ -67,9 +67,13 @@ Hệ thống được xây dựng bằng công nghệ LCDP (Low code development
 │   ├── images/
 │   ├── .gitignore
 │   └── mkdocs.yaml
+├── goong-map-admin/
+├── goong-map-admin-home/
+├── goong-map-org/
 ├── .gitignore
 ├── LICENSE
-└── README.md
+├── README.md
+└── setup.sh
 ```
 
 ## Hướng Dẫn Cài Đặt
