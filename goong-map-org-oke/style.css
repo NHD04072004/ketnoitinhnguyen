@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  #map {
+    width: 80%;
+    height: 500px;
+  }
+  
+  /* CSS để làm marker nháy nháy */
+  @keyframes pulse {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+.marker {
+  animation: pulse 1s infinite;
+}
+
+.custom-tooltip {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+#dropdown-content {
+  display: block;
+  margin-top: 10px;
+}
+
+#dropdown-content.hidden {
+  display: none;
+}
+
+#toggle-dropdown {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#toggle-dropdown:hover {
+  background-color: #0056b3;
+}
+
+
+
