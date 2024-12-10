@@ -119,6 +119,11 @@ Hệ thống được xây dựng bằng công nghệ LCDP (Low code development
 -   [NodeJS v22-Installation](https://nodejs.org/en/download/)
 -   [Budibase Cli-Installation](https://docs.budibase.com/docs/budibase-cli-setup)
 
+**Cài đặt nhanh:** File `setup.sh` trong dự án của tôi
+```bash
+sh setup.sh
+```
+
 ### 🔨 Cài Đặt
 
 Trước hết, hãy khởi tạo dự án:
