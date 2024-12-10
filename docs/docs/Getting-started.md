@@ -1,7 +1,10 @@
 ## 🔎 Danh Mục
-1. [Giới Thiệu](#Giới-Thiệu)
-2. [Chức Năng](#chức-năng-chính)
+1. [Giới Thiệu](#giới-thiệu)
+2. [Chức Năng chính](#chức-năng-chính)
 3. [Tổng Quan Hệ Thống](#👩‍💻-tổng-quan-hệ-thống)
+    - [Plugins](#plugins)
+    - [Services](#services)
+    - [Cơ sở dữ liệu](#cơ-sở-dữ-liệu)
 4. [Cấu Trúc Thư Mục](#cấu-trúc-thư-mục)
 5. [Hướng Dẫn Cài Đặt](#hướng-dẫn-cài-đặt)
     - [📋 Yêu Cầu - Prerequisites](#yêu-cầu-📋)
@@ -23,6 +26,7 @@ Project tập trung vào các chức năng chính như sau:
 - Đăng ký thành lập tổ chức.
 - Gửi yêu cầu hỗ trợ.
 - Bản đồ hỗ trợ.
+- Chatbot tra cứu thông tin của các cơ quan thường trực.
 
 ## 👩‍💻 Tổng Quan Hệ Thống
 
@@ -30,12 +34,27 @@ Hệ thống được xây dựng bằng công nghệ LCDP (Low code development
 
 ### Plugins
 
-- [bb-qr-code](https://github.com/rosnerdev/bb-qr-code): sử dụng để tạo qr cho tình nguyện viên vào nhóm trò chuyện.
-- [Geolocation](https://github.com/andz-bb/budibase-component-geolocation): sử dụng để lấy vị trí người dùng.
+- [bb-qr-code](https://github.com/rosnerdev/bb-qr-code): tạo qr cho tình nguyện viên vào nhóm trò chuyện.
+- [Geolocation](https://github.com/andz-bb/budibase-component-geolocation): lấy vị trí người dùng.
 
 ### Services
 
-- [Goongmap](https://github.com/NHD04072004/ketnoitinhnguyen/tree/goong-map-org): bản đồ.
+- [Goongmap](https://github.com/NHD04072004/ketnoitinhnguyen/tree/goong-map-org): hiển thị bản đồ, chỉ đường và đánh dấu các yêu cầu hỗ trợ.
+
+<p align="center">
+    <img src="https://github.com/NHD04072004/ketnoitinhnguyen/blob/main/docs/images/map/mapflow.png?raw=true">
+</p>
+
+- [Chatbase](https://www.chatbase.co/): tra cứu các thông tin của các cơ quan thường trực của các tỉnh/quận/huyện.
+
+<p align="center">
+    <img src="https://github.com/NHD04072004/ketnoitinhnguyen/blob/main/docs/images/chat/chatflow.png?raw=true">
+</p>
+
+### Cơ sở dữ liệu
+
+- [BudibaseDB](https://docs.budibase.com/docs/budibasedb): Lưu các thông tin của dự án.
+- [MongoDB](https://www.mongodb.com/): Lưu trữ thông tin người dân gửi yêu cầu hỗ trợ.
 
 
 ## Cấu trúc thư mục
@@ -83,11 +102,7 @@ budi hosting --start
 
 Chạy dự án trên trình duyệt của bạn [http://localhost:10000](http://localhost:10000). Sau đó tạo đăng nhập và tạo ứng dụng.
 
-Clone dự án của tôi về máy tính của bạn:
-
-```bash
-git clone https://github.com/NHD04072004/ketnoitinhnguyen.git
-```
+Tải dự án về tại [link](https://github.com/NHD04072004/ketnoitinhnguyen/releases/download/v2.0/ketnoitinhnguyen-export-1733737522961.tar.gz).
 
 Sau đó, vào `Settings > Export/Import > Import app` rồi kéo thả file tài nguyên vào, sau đó ấn `Update`
 
