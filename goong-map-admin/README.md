@@ -53,7 +53,7 @@ npm start
 - Hoặc bạn có thể deploy dự án lên các nền tảng trực tuyến.
 - Tận hưởng ☕☕☕
 <p align="center">
-    <img src="/home/quan/WorkSpace/ketnoitinhnguyen/docs/images/node-js-server.png">
+    <img src="https://raw.githubusercontent.com/NHD04072004/ketnoitinhnguyen/refs/heads/goong-map-admin/docs/images/node-js-server.png">
 </p>
 
 
