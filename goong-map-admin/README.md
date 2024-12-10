@@ -36,20 +36,27 @@ cd map-admin
 ### 2. Cài đặt phụ thuộc
 ```bash
 npm install
-````
+```
 
 ### 3. Cấu hình môi trường
 - Tạo file .env trong thư mục gốc và thêm cấu hình MongoDB
 ```bash
 PORT = 5000
 MONGO_URI=mongodb://localhost:27017/locations_db
-````
+```
 - Thay chuỗi kết nối đến Database trong MongoDB của bạn
 ### 4. Chạy Server
 ```bash
 npm start
-````
-- Server sẽ chạy tại http://localhost:5000.
+```
+- Server sẽ chạy tại http://localhost:5000/locations.
+- Hoặc bạn có thể deploy dự án lên các nền tảng trực tuyến.
+- Tận hưởng ☕☕☕
+<p align="center">
+    <img src="/home/quan/WorkSpace/ketnoitinhnguyen/docs/images/node-js-server.png">
+</p>
+
+
 
 ## Các API Endpoint chính
 Lấy danh sách tất cả các vị trí
