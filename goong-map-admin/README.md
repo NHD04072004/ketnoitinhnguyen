@@ -79,5 +79,5 @@ Lấy danh sách vị trí theo phone_org
 
 ## Sơ đồ hoạt động
 <p align="center">
-    <img src="/home/quan/WorkSpace/ketnoitinhnguyen/docs/images/nodejs-map-server.svg">
+    <img src="https://raw.githubusercontent.com/NHD04072004/ketnoitinhnguyen/refs/heads/goong-map-admin/docs/images/nodejs-map-server.svg">
 </p>
