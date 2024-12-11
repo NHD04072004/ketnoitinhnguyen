@@ -1,4 +1,4 @@
-# Front-End
+# Front-End Admin Map
 
 Đây là giao diện được xây dựng bằng HTML, CSS, JavaScript và API của GoongMap lấy dữ liệu từ Server Node.js có nhiệm vụ hiển thị bản đồ cho Admin chứa thông tin các vị trí (maker) đã được đánh dấu trên bản đồ .
 
