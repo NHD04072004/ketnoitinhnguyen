@@ -67,6 +67,7 @@ Dự án được thực hiện trong cuộc thi [Phần Mềm Nguồn Mở Olym
   - Kết nối cộng đồng tình nguyện viên: Tập hợp những cá nhân và tổ chức sẵn sàng đóng góp nguồn lực, thời gian và kỹ năng để hỗ trợ cộng đồng.
   - Cung cấp thông tin nhanh và chính xác: Đảm bảo thông tin về các khu vực bị ảnh hưởng, nhu cầu cứu trợ, và tình hình khẩn cấp được chia sẻ đến các tổ chức tham gia cứu trợ.
   - Hỗ trợ điều phối hiệu quả: Sử dụng công nghệ để tối ưu hóa việc phân bổ nguồn lực hợp lý và nhanh chóng.
+
 ### Các chức năng chính
 
 Project tập trung vào các chức năng chính như sau:
@@ -77,6 +78,7 @@ Project tập trung vào các chức năng chính như sau:
 - 🗾 Bản đồ hỗ trợ.
 - 🗨️ Chatbot tra cứu thông tin của các cơ quan thường trực.
 - 🫶 Quản lý và phân phối nguồn lực cứu trợ.
+
 ### 🎯 Mục tiêu
 
 - **Kết nối cộng đồng tình nguyện nhanh chóng**: Cung cấp nền tảng để tình nguyện viên từ mọi miền có thể liên lạc, đăng ký và tham gia hỗ trợ trong thời gian ngắn, đảm bảo hỗ trợ khắc phục hậu quả sau bão lũ.
@@ -90,44 +92,49 @@ Project tập trung vào các chức năng chính như sau:
 
 #### 🌪 Yêu cầu hỗ trợ
 
-- Người dùng gửi yêu cầu cứu trợ
-- Theo dõi tình trạng yêu cầu cứu trợ
+- Người dùng gửi yêu cầu cứu trợ.
+- Theo dõi tình trạng yêu cầu cứu trợ.
+
 #### 🙋 Tình nguyện viên
 
-- Đăng ký tham gia tình nguyện viên
-- Theo dõi tình trạng đăng ký tình nguyện
-- Theo dõi thông tin tổ chức sẽ hoạt động
-- Quản lý thông tin đăng ký
+- Đăng ký tham gia tình nguyện viên.
+- Theo dõi tình trạng đăng ký tình nguyện.
+- Theo dõi thông tin tổ chức sẽ hoạt động.
+- Quản lý thông tin đăng ký.
+
 #### 👬 Tổ chức tình nguyện
 
-- Theo dõi tình trạng đăng ký tổ chức
-- Theo dõi thông tin tổ chức
-- Theo dõi thông tin tình nguyện viên tham gia
-- Theo dõi nhiệm vụ hỗ trợ được giao
+- Theo dõi tình trạng đăng ký tổ chức.
+- Theo dõi thông tin tổ chức.
+- Theo dõi thông tin tình nguyện viên tham gia.
+- Theo dõi nhiệm vụ hỗ trợ được giao.
+
 #### 🤝 Kết nối cộng đồng
 
-- Kết nối nhu cầu tình nguyện
-- Nền tảng tình nguyện viên
-- Hệ thống điều phối, phân chia các yêu cầu cứu trợ
+- Kết nối nhu cầu tình nguyện.
+- Nền tảng tình nguyện viên.
+- Hệ thống điều phối, phân chia các yêu cầu cứu trợ.
+
 #### 🏃 Xây dựng hệ thống hỗ trợ hiệu quả
 
-- Quản lý yêu cầu hỗ trợ 
-- Quản lý tình nguyện và tổ chức tình nguyện
-- Phân bổ tình nguyện viên cho tổ chức chính xác
-- Phân bổ các yêu cầu cho tổ chức tình nguyện
+- Quản lý yêu cầu hỗ trợ.
+- Quản lý tình nguyện và tổ chức tình nguyện.
+- Phân bổ tình nguyện viên cho tổ chức chính xác.
+- Phân bổ các yêu cầu cho tổ chức tình nguyện.
+
 #### 🌳 Đóng góp cộng đồng
 
-- Hỗ trợ xây dựng cộng đồng tình nguyện
-- Nâng cao năng lực khắc phục hậu quả của cộng đồng
-- Kết nối cộng động tình nguyện nhanh chóng
-- Tối ưu hóa việc sử dụng nguồn lực địa phương
-- Nâng cao ý thức phòng chống thiên tai trong cộng đồng
-- Phát triển các phương pháp cứu trợ hiệu quả và bền vững
+- Hỗ trợ xây dựng cộng đồng tình nguyện.
+- Nâng cao năng lực khắc phục hậu quả của cộng đồng.
+- Kết nối cộng động tình nguyện nhanh chóng.
+- Tối ưu hóa việc sử dụng nguồn lực địa phương.
+- Nâng cao ý thức phòng chống thiên tai trong cộng đồng.
+- Phát triển các phương pháp cứu trợ hiệu quả và bền vững.
+
 #### 🧠  Tích hợp công nghệ
 
 - Hệ thống quản lý và tư vấn thông tin
 - Dẫn đường và chỉ dẫn
-
 
 ### 📌 Các đặc điểm nổi bật và lợi ích cho người dùng
 
@@ -139,9 +146,9 @@ Project tập trung vào các chức năng chính như sau:
 
 ### 🌏 Mục tiêu tương lai của hệ thống
 
--**Mở rộng mạng lưới tình nguyện viên và tổ chức**: Tăng số lượng tình nguyện viên và các tổ chức tham gia và hoạt động cứu trợ, tạo thành một cộng đồng tình nguyện vững mạnh.
--**Nâng cao trải nghiệm người dùng**: Phát triển giao diện trực quan và thân thiện hơn, hỗ trợ nhiều ngôn ngữ để dễ dàng sử dụng ở các vùng miền khác nhau.
--**Tạo nền tảng cộng đồng tương tác**: Thêm các tính năng chat trong các tổ chức để các thành viên có thể liên lạc và tương tác với nhau dễ dàng hơn.
+- **Mở rộng mạng lưới tình nguyện viên và tổ chức**: Tăng số lượng tình nguyện viên và các tổ chức tham gia và hoạt động cứu trợ, tạo thành một cộng đồng tình nguyện vững mạnh.
+- **Nâng cao trải nghiệm người dùng**: Phát triển giao diện trực quan và thân thiện hơn, hỗ trợ nhiều ngôn ngữ để dễ dàng sử dụng ở các vùng miền khác nhau.
+- **Tạo nền tảng cộng đồng tương tác**: Thêm các tính năng chat trong các tổ chức để các thành viên có thể liên lạc và tương tác với nhau dễ dàng hơn.
 
 ### 🎯Đối tượng hướng đến
 
@@ -206,24 +213,24 @@ Bạn có thể trải nghiệm Kết nối tình nguyện tại: https://anhqua
 ### Các đối tượng trong hệ thống
 
 - 👥 **Người Dùng**:
-  - Dành cho người dân cần gửi yêu cầu hỗ trợ
-  - Theo dõi tình trạng yêu cầu
+  - Dành cho người dân cần gửi yêu cầu hỗ trợ.
+  - Theo dõi tình trạng yêu cầu.
 - 👥 **Tình nguyện viên**:
-  - Dành cho tình nguyện viên
-  - Đăng ký tình nguyện viên
-  - Quản lý tài khoản 
-  - Theo dõi thông tin các nhân và tổ chức hoạt động
+  - Dành cho tình nguyện viên.
+  - Đăng ký tình nguyện viên.
+  - Quản lý tài khoản .
+  - Theo dõi thông tin các nhân và tổ chức hoạt động.
 - 👥 **Tổ chức**:
-  - Dành cho tổ chức
-  - Quản lý thông tin tổ chức
-  - Quản lý nhiệm vụ cứu trợ
-  - Quản lý tình nguyện viên tham gia tổ chức
+  - Dành cho tổ chức.
+  - Quản lý thông tin tổ chức.
+  - Quản lý nhiệm vụ cứu trợ.
+  - Quản lý tình nguyện viên tham gia tổ chức.
 - ⚙️ **Admin**:
-  - Dành cho quản trị viên hệ thống
-  - Quản lý người dùng
-  - Phân bổ tình nguyện viên và tổ chức
-  - Xác nhận các yêu cầu hỗ trợ
-  - Theo dõi bản đồ hỗ trợ
+  - Dành cho quản trị viên hệ thống.
+  - Quản lý người dùng.
+  - Phân bổ tình nguyện viên và tổ chức.
+  - Xác nhận các yêu cầu hỗ trợ.
+  - Theo dõi bản đồ hỗ trợ.
 
 ## Hướng Dẫn Cài Đặt
 
@@ -274,7 +281,7 @@ Bạn muốn đóng góp cho dự án, hãy đọc [CONTRIBUTING](.github/CONTRI
 
 ## Liên hệ
 
-Nếu bạn có câu hỏi, đừng ngần ngại liên hệ với chúng tôi
+Nếu bạn có câu hỏi, hãy liên hệ với chúng tôi
 
 - Nguyễn Hải Đăng: 22a1001d0049@students.hou.edu.vn
 - Nguyễn Thế Lộc: 22a1001d0199@students.hou.edu.vn
