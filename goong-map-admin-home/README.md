@@ -47,5 +47,5 @@ const response = await fetch("https://your-server-name/locations");
 ## Sơ đồ hoạt động
 
 <p align="center">
-    <img src="/home/quan/WorkSpace/ketnoitinhnguyen/docs/images/goong-map-admin.png">
+    <img src="https://github.com/NHD04072004/ketnoitinhnguyen/blob/main/docs/images/goong-map-admin.png?raw=true">
 </p>
