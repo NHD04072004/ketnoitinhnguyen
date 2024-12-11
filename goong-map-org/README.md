@@ -50,5 +50,5 @@ const response = await fetch("https://your-server-name?phone=phone-number-value"
 
 ### 6. Tận hưởng ☕☕☕
 <p align="center">
-    <img src="/home/quan/WorkSpace/ketnoitinhnguyen/docs/images/goong-map-admin.png">
+    <img src="https://github.com/NHD04072004/ketnoitinhnguyen/blob/main/docs/images/org-map.png?raw=true">
 </p>
