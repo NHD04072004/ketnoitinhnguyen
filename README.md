@@ -161,9 +161,9 @@ Hệ thống được xây dựng bằng công nghệ LCDP (Low code development
 
 ### Services
 
-- [Goongmap admin server](./goong-map-admin-home/README.md): hiển thị bản đồ, chỉ đường và đánh dấu các yêu cầu hỗ trợ.
+- [Goongmap admin server](./goong-map-admin/README.md): hiển thị bản đồ, chỉ đường và đánh dấu các yêu cầu hỗ trợ.
 - [Goongmap admin home](./goong-map-admin-home/README.md) Giao diện hiển thị bản đồ chỉ đường dành cho admin.
-- [Goongmap organization](./goong-map-org-oke/README.md) Giao diện hiển thị bản đồ danh cho tổ chức
+- [Goongmap organization](./goong-map-org/README.md) Giao diện hiển thị bản đồ danh cho tổ chức
 
 <p align="center">
     <img src="./docs/images/map/mapflow.png">
