@@ -145,10 +145,10 @@ Project tập trung vào các chức năng chính như sau:
 
 ### 🎯Đối tượng hướng đến
 
--**Người dân cần hỗ trợ**: Những cá nhân hoặc gia đình chịu ảnh hưởng bởi thiên tai cần gửi yêu cầu hỗ trợ khẩn cấp về nhu yếu phẩm, y tế...Ứng dụng giúp họ dễ dàng gửi thông tin yêu cầu và nhận được sự hỗ trợ nhanh chóng.
--**Tình nguyện viên**: Những người có mong muốn tham gia hỗ trợ cộng đồng, từ học sinh, sinh viên, người lao động đến các chuyên gia trong các lĩnh vực như y tế, cứu hộ, và giáo dục.(đủ điều kiện tham gia cứu trợ).
--**Tổ chức tình nguyện**: Các tổ chức đã hoạt động trong lĩnh vực hỗ trợ ứng phó thiên tai hoặc đang có ý định tham gia hỗ trợ nhưng chưa kết nối được các tình nguyện viên. Ứng dụng giúp tổ chức kết nối các tình nguyện, quản lý yêu cầu hỗ trợ và theo dõi thông tin.
--**Chính quyền địa phương và cơ quan chức năng**: Các đơn vị hành chính địa phương chịu trách nhiệm trong việc ứng phó và khắc phục hậu quả thiên tai, thảm họa và xử lý các yêu cầu khẩn cấp cần xử lý ngay.
+- **Người dân cần hỗ trợ**: Những cá nhân hoặc gia đình chịu ảnh hưởng bởi thiên tai cần gửi yêu cầu hỗ trợ khẩn cấp về nhu yếu phẩm, y tế...Ứng dụng giúp họ dễ dàng gửi thông tin yêu cầu và nhận được sự hỗ trợ nhanh chóng.
+- **Tình nguyện viên**: Những người có mong muốn tham gia hỗ trợ cộng đồng, từ học sinh, sinh viên, người lao động đến các chuyên gia trong các lĩnh vực như y tế, cứu hộ, và giáo dục.(đủ điều kiện tham gia cứu trợ).
+- **Tổ chức tình nguyện**: Các tổ chức đã hoạt động trong lĩnh vực hỗ trợ ứng phó thiên tai hoặc đang có ý định tham gia hỗ trợ nhưng chưa kết nối được các tình nguyện viên. Ứng dụng giúp tổ chức kết nối các tình nguyện, quản lý yêu cầu hỗ trợ và theo dõi thông tin.
+- **Chính quyền địa phương và cơ quan chức năng**: Các đơn vị hành chính địa phương chịu trách nhiệm trong việc ứng phó và khắc phục hậu quả thiên tai, thảm họa và xử lý các yêu cầu khẩn cấp cần xử lý ngay.
 
 ## 👩‍💻 Tổng Quan Hệ Thống
 
