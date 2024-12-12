@@ -1,3 +1,7 @@
+/*
+Goongjs license: https://raw.githubusercontent.com/goong-io/goong-js/refs/heads/master/LICENSE.txt
+*/
+
 const GOONG_API_KEY = "32kmtyYrNGxGT8HTfQuZoJKwKNltvXVh4fucACBd";
 const GOONG_API_DIRECTION = "mCTsP9i1RSee5Q2df9p57Gvseo9aueYfgdWDKaZO";
 
